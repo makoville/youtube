@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: black;
+    font-family: sans-serif;
+}
+
+.head{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 40px 10px 40px;
+}
+
+.container{
+    background-color: rgb(245, 244, 244);
+}
+
+ul{
+    list-style: none;
+    border-bottom: 1px solid rgb(233, 232, 232);
+    padding: 5px 0px;
+   
+}
+
+h1::before{
+ content: i class="fab fa-youtube";
+
+}
+
+ul li{
+    padding: 12px;
+}
+
+ul li a{
+    text-decoration: none;
+    padding-left: 20px;
+    font-size: 14px;
+}
+
+.navigation{
+   background-color: white;
+   width: 200px;
+   display: flex;
+   flex-direction: column;
+
+}
+
+ul li:hover{
+    background: rgb(245, 244, 244);
+    cursor: pointer;
+}
